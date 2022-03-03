@@ -13,3 +13,11 @@ In this challenge, we need to perform following points on basis of statistics:
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 - For each statistical analysis, you’ll write a - summary interpretation of the findings.
+
+
+## Requirements
+
+- Linear Regression to Predict MPG
+- Summary Statistics on Suspension Coils
+- T-Test on Suspension Coils
+- Design a Study Comparing the MechaCar to the Competition
