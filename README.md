@@ -21,3 +21,16 @@ In this challenge, we need to perform following points on basis of statistics:
 - Summary Statistics on Suspension Coils
 - T-Test on Suspension Coils
 - Design a Study Comparing the MechaCar to the Competition
+
+
+## Resources
+Data Source: 
+-	[MechaCar_mpg.csv](Data/MechaCar_mpg.csv)
+-	[Suspension_Coil.csv](Data/Suspension_Coil.csv)
+
+Software: 
+- **RStudio**
+- Languages: **R**
+
+## Results & Analysis
+### Linear Regression to Predict MPG 
