@@ -35,6 +35,40 @@ Software:
 ## Results & Analysis
 ### Linear Regression to Predict MPG 
 
-- **1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-- **2. Is the slope of the linear model considered to be zero? Why or why not?**
-- **3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+**1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
+
+ - To determine which variables, provide a non-random amount of variance to the mpg value we have to look at their individual **p-value**. 
+- If the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, meaning that those variables have a significant impact on mpg. 
+- According to our results *(Figure 1)* **ground clearance** (p-value = 5.21 x 10-8), **vehicle length** (p-value = 2.60 x 10-12), as well as **intercept** (p-value = 5.08 x 10-8) provided a non-random amount of variance to the mpg values in the dataset.
+- When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in the model. 
+- These variables may or may not be within our dataset and may still need to be collected or observed (Source 1: Module 15.7.3).
+
+
+**2. Is the slope of the linear model considered to be zero? Why or why not?**
+**3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+
+
+#### question: Statistical question
+With multiple linear regression model we are identifying which variables (vehicle weight, spoiler angle, ground clearance, AWD and vehicle length in our case) in the dataset predict the mpg of MechaCar prototypes. In other words, we are asking if there is a relationship between variables and mpg of MechaCar prototypes. 
+
+####  Null hypothesis and alternative hypothesis for linear regression
+
+With multiple linear regression model, we are establishing the following hypothesis:
+
+**H0:** The slope of the linear model is zero, or m = 0 (If there is no significant linear relationship, each dependent value would be determined by random chance and error. Therefore, our linear model would be a flat line with a slope of 0).
+
+**Ha:** The slope of the linear model is not zero, or m ≠ 0 (If there is significant linear relationship, each dependent value would not be determined by random chance and error. Therefore, our linear model would not be a flat line with a slope greater or lesser than 0).
+
+#### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+#### Is the slope of the linear model considered to be zero? Why or why not?
+Based on our results *(Figure 1)* p-value is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there **is sufficient evidence to reject our null hypothesis**. That indicates the slope of our linear model is **not** zero, meaning that there is **significant linear relationship** between variables and mpg of MechaCar prototype. (Source 1: Module 15.7.2).
+#### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared** and **p-value**. According to our results *(Figure 1)* r-squared is 0.7149 and indicates a strong positive linear relationship, therefore I can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
+
+<p align="center">
+<img src="Graphics/D1p-valueANDr-squared.PNG" width="60%" height="60%">
+</p>
+<p align="center">
+<i>Figure 1: Linear Regression Results.</i>
+</p>
