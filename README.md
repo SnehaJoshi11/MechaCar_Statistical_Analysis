@@ -167,7 +167,7 @@ Mechacar can provide good alternate. So, we would test following metrices to com
 #### What data is needed to run the statistical test?
 
 To run this statistical test, we need the data from:
-- vehicle ID, fuel efficiency data, class type data
+- Model ID, Manufacturer, fuel efficiency data, class type data
 - It will need fuel efficiency data from 50 individual cars.
 - Then we can create a sample size of data for each car in the class type.
 - For example, if there were 10 cars in the class type, then we can have a top of 500 data points collected for each fuel efficiency type.
