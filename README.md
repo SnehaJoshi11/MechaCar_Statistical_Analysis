@@ -112,19 +112,22 @@ In order to **reject** or **fail to reject our null hypothesis** we have to look
 According to the result *(Figure 3)* p-value for all manufacturing lots is 0.5117, for lot 1 = 0.9048, for lot 2 = 0.3451, and for lot 3 = 0.637. In all cases p-value is above the assumed significance level of 0.05. Therefore, there is not enough evidence and **we fail to reject the null hypothesis**, meaning that the two means not statistically different.
 
 <p align="center">
-<img src="Graphics/D3AllLots.PNG" width="50%" height="50%"> 
+<img src="Images/D3AllLots.PNG" width="50%" height="50%"> 
 </p>
 <p align="center">
 <i>Figure 4: t-Test for All Lots Total.</i>
 </p>
 
 <p align="center">
-<img src="Graphics/D3Lot1.PNG" width="40%" height="40%"> <img src="Graphics/D3Lot2.PNG" width="40%" height="40%">
+<img src="Images/D3Lot1.PNG" width="40%" height="40%"> <img src="Graphics/D3Lot2.PNG" width="40%" height="40%">
 </p>
 
 <p align="center">
-<img src="Graphics/D3Lot3.PNG" width="40%" height="40%">
+<img src="Images/D3Lot3.PNG" width="40%" height="40%">
 </p>
 <p align="center">
 <i>Figure 5: t-Test for Each Lot Individually.</i>
 </p>
+
+
+## Study Design: MechaCar vs Competition
