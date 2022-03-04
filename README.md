@@ -54,21 +54,21 @@ For multiple linear regression model, following hypothesis will help to understa
 - If the p-value is below 0.05 is statistically unlikely to provide random amounts of variance to the linear model, meaning that those variables have a significant impact on mpg. 
 - According to our results *(Figure 1)* **ground clearance** (p-value = 5.21 x 10-8), **vehicle length** (p-value = 2.60 x 10-12), as well as **intercept** (p-value = 5.08 x 10-8) provided a non-random amount of variance to the mpg values in the dataset.
 - When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in the model. 
-- These variables may or may not be within our dataset and may still need to be collected or observed (Source 1: Module 15.7.3).
+- These variables may or may not be within our dataset and may still need to be collected or observed (Source: Module 15.7.3).
 
 
 **2. Is the slope of the linear model considered to be zero? Why or why not?**
 
 - Based on our results (Figure 1) p-value is 5.35 x 10-11, which is much smaller than our assumed significance level of 0.05%. Therefore,
 - We can state that there is sufficient evidence to reject our null hypothesis. 
-- That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype. (Source 1: Module 15.7.2).
+- That indicates the slope of our linear model is not zero, meaning that there is significant linear relationship between variables and mpg of MechaCar prototype. (Source: Module 15.7.2).
 
 
 **3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 - To determine if this linear model predict mpg of MechaCar prototypes effectively we need to take a look at its **r-squared** and **p-value**.
 - According to our results *(Figure 1)* r-squared is 0.7149 and indicates a strong positive linear relationship, 
-- Therefore we can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source 1: Module 15.7.2).
+- Therefore we can confirm that this linear model effectively predicts mpg of MechaCar prototypes (Source: Module 15.7.2).
 
 <p align="center">
 <img src="Images/.PNG" width="60%" height="60%">
